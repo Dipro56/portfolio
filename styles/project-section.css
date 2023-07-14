@@ -1,0 +1,49 @@
+.project-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  justify-content: center;
+
+  .project-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  /* padding: 10px; */
+}
+
+@media (max-width: 1050px) {
+  .project-section{
+     grid-template-columns: auto auto;
+     
+  }
+}
+
+
+@media (max-width: 750px) {
+  .project-section{
+     grid-template-columns: auto;
+     
+  }
+}
+
+
+.link-button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-top: 25px;
+}
+.link-button {
+  width: 150px;
+  background-color: rgb(54 78 144);
+  border-radius: 2px;
+  padding: 10px 20px;
+  color: white;
+}
+
+.link-button:hover {
+  background-color: rgba(14, 56, 171);
+}

@@ -1,0 +1,6 @@
+.skill-section {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  color: black;
+}

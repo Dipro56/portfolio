@@ -1,0 +1,84 @@
+.upper-section-bg {
+  width: 100%;
+  background-image: linear-gradient(
+    25deg,
+    rgba(28, 14, 14, 0.963),
+    rgb(7, 34, 106)
+  );
+  color: black;
+}
+
+.profile-image-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.border-radius {
+  border-radius: 50%;
+  position: relative;
+  /* transition: transparent 0.3s ease; */
+  border: 1px solid white;
+  z-index: 9999;
+  transition: all 0.3s ease-out;
+}
+
+.name-profession-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-family: inter;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-top: 25px;
+}
+.cv-button {
+  width: 150px;
+  background-color: rgb(54 78 144);
+  border-radius: 2px;
+  padding: 10px 20px;
+  color: white;
+}
+
+.cv-button:hover {
+  background-color: rgba(14, 56, 171);
+}
+
+.round-button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.round-button {
+  width: 75px;
+  height: 75px;
+  background-color: rgb(54 78 144);
+  border-radius: 50%;
+  color: white;
+  transform: translateY(50%);
+  margin-inline: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.round-button:hover {
+  background-color: rgba(14, 56, 171);
+}
+
+.custom-icon-size {
+  width: 30px;
+  height: 30px;
+}

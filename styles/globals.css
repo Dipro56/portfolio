@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgba(222, 222, 222, 0.463)
+}
+
+.slide-in {
+  visibility: visible;
+  left: -100%; /* Initially position the element outside the viewport */
+  animation: slideInFromLeft 2s ease-in-out forwards; /* Apply the animation */
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%); /* Starting position outside the viewport */
+  }
+  100% {
+    transform: translateX(0%); /* Final position at 0px from the left */
+  }
+}
+
+.slide-in-right {
+  animation: slideInRight 2s forwards;
+
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.text-color-black {
+  color: black;
+}

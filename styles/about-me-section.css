@@ -1,0 +1,59 @@
+.about-me-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .about-me-div {
+    padding: 25px;
+    width: 100%;
+  }
+
+  .basic-info-div {
+    padding: 25px;
+    width: 100%;
+
+    .info-outer-div {
+      display: flex;
+      flex-direction: row;
+      .info-title-div {
+        padding-right: 40px;
+      }
+      .info-detail-div {
+        padding-left: 5px;
+      }
+    }
+  }
+}
+
+.info-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.slide-in {
+  visibility: visible;
+  left: -100%; /* Initially position the element outside the viewport */
+  animation: slideInFromLeft 2s ease-in-out forwards; /* Apply the animation */
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%); /* Starting position outside the viewport */
+  }
+  100% {
+    transform: translateX(0%); /* Final position at 0px from the left */
+  }
+}
+
+
+
+@media (max-width: 1050px) {
+  .about-me-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
