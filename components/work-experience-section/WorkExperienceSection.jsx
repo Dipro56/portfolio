@@ -8,10 +8,10 @@ const WorkExperienceSection = () => {
         Work Experience
       </div>
       <div  className="work-experience-section container mx-auto about-me-section shadow-xl ">
-        <div className="insitution-image-div  slide-in">
+        <div className="insitution-image-div ">
           <Image height={150} width={150} src={'/assets/gakk.jpg'} alt='img' />
         </div>
-        <div className="details-div  slide-in-right">
+        <div className="details-div">
           <p className="text-3xl text-start ">Software Engineer (Frontend)</p>
           <p className="text-xl text-start ">Gakk Media Ltd</p>
 
@@ -67,10 +67,10 @@ const WorkExperienceSection = () => {
       </div>
 
       <div className="work-experience-section container mx-auto about-me-section shadow-xl">
-        <div className="insitution-image-div  slide-in ">
+        <div className="insitution-image-div">
           <Image height={150} width={150} src={'/assets/asthait.jpg'} alt='img' />
         </div>
-        <div className="details-div  slide-in-right">
+        <div className="details-div ">
           <p className="text-3xl text-start ">Software Engineer (Intern)</p>
           <p className="text-xl text-start ">Astha.IT</p>
 
@@ -108,7 +108,7 @@ const WorkExperienceSection = () => {
       </div>
 
       <div className="work-experience-section container mx-auto about-me-section shadow-xl">
-        <div className="insitution-image-div  slide-in">
+        <div className="insitution-image-div">
           <Image height={150} width={150} src={'/assets/ionnolytic.jpg'} alt='img' />
         </div>
         <div className="details-div ">
@@ -152,7 +152,7 @@ const WorkExperienceSection = () => {
             </p>
           </div>
         </div>
-        <div className="duration-div  slide-in-right">
+        <div className="duration-div ">
           <p className="text-xl font-bold text-center">Duration:</p>
           <p className="text-xl text-center">February 2021 - June 2022</p>
         </div>

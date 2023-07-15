@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMeSection = () => {
   return (
-    <div id='about' className="container mx-auto about-me-section shadow-xl slide-in-right text-color-black">
+    <div id='about' className="container mx-auto about-me-section shadow-xl  text-color-black">
       <div className="about-me-div">
         <p className="text-3xl font-bold text-color-black">About me</p>
         <p className="text-xl mt-8 font-normal">
