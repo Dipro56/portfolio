@@ -31,12 +31,8 @@ const UpperSection = () => {
       </div>
 
       <div className="button-div">
-        <Link href="/Sadat_Shahriar__CV.pdf" target="_blank">
-          <button className="cv-button text-md mr-2">View CV</button>
-        </Link>
-
         <Link href="/Sadat_Shahriar__CV.pdf" target="_blank" download>
-          <button className="cv-button text-md ml-2">Download CV</button>
+          <button className="cv-button text-md">Download CV</button>
         </Link>
       </div>
 
