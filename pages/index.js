@@ -12,12 +12,14 @@ export default function Home() {
   return (
     <main>
       <UpperSection />
-      <AboutMeSection />
-      <EducationSection />
-      <WorkExperienceSection />
-      <SkillSection />
-      <ProjectSection />
-      <ExtraCurricularSection />
+      <div className="lg:mx-24">
+        <AboutMeSection />
+        <EducationSection />
+        <WorkExperienceSection />
+        <SkillSection />
+        <ProjectSection />
+        <ExtraCurricularSection />
+      </div>
       <Footer />
     </main>
   );
