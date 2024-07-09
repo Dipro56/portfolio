@@ -3,17 +3,17 @@ import React from 'react';
 
 const WorkExperienceSection = () => {
   return (
-    <div id='experience'>
-      <div  className="flex justify-center text-3xl font-bold mt-28 text-color-black">
+    <div id="experience">
+      <div className="flex justify-center text-xl font-bold mt-28 text-color-black">
         Work Experience
       </div>
-      <div  className="work-experience-section container mx-auto about-me-section shadow-xl ">
+      <div className="work-experience-section container mx-auto about-me-section shadow-xl ">
         <div className="insitution-image-div ">
-          <Image height={150} width={150} src={'/assets/gakk.jpg'} alt='img' />
+          <Image height={150} width={150} src={'/assets/gakk.jpg'} alt="img" />
         </div>
         <div className="details-div">
-          <p className="text-3xl text-start ">Software Engineer (Frontend)</p>
-          <p className="text-xl text-start ">Gakk Media Ltd</p>
+          <p className="text-xl text-start  ">Software Engineer (Frontend)</p>
+          <p className="text-base text-start  ">Gakk Media Ltd</p>
 
           <ul className="work-experience-section-ul">
             <li>
@@ -56,23 +56,88 @@ const WorkExperienceSection = () => {
             <p className="text-md text-start ">Kamrul Hasan Ananda</p>
             <p className="text-md text-start ">Frontend team lead (Shadhin) </p>
             <p className="text-md text-start ">
-              Mail: <span><a href='mailto:anandasadhinmusic@gmail.com'>anandasadhinmusic@gmail.com</a></span>
+              Mail:{' '}
+              <span>
+                <a href="mailto:anandasadhinmusic@gmail.com">
+                  anandasadhinmusic@gmail.com
+                </a>
+              </span>
             </p>
           </div>
         </div>
         <div className="duration-div">
-          <p className="text-xl font-bold text-center">Duration:</p>
-          <p className="text-xl text-center">Ocotber 2022 - Present</p>
+          <p className="text-base font-bold text-center">Duration:</p>
+          <p className="text-base text-center">Ocotber 2022 - Present</p>
+        </div>
+      </div>
+
+      <div className="work-experience-section container mx-auto about-me-section shadow-xl p-8">
+        <div className="insitution-image-div">
+          <div className="bg-slate-400 h-20 w-24 flex justify-center items-center font-bold text-white text-3xl">
+            H
+          </div>
+        </div>
+        <div className="details-div">
+          <p className="text-xl text-start  ">Software Developer</p>
+          <p className="text-base text-start  ">Hashcode</p>
+
+          <ul className="work-experience-section-ul">
+            <li>
+              <p className="text-md text-start ">
+                Developed and maintained web and mobile applications using
+                JavaScript, React, React Native and Node.js.
+              </p>
+            </li>
+            <li>
+              <p className="text-md text-start ">
+                Collaborated with cross-functional teams to design and implement
+                new features.
+              </p>
+            </li>
+            <li>
+              <p className="text-md text-start ">
+                Resolved performance issues for different client products.
+              </p>
+            </li>
+            <li>
+              <p className="text-md text-start ">
+                Converted figma design to functional components as per project
+                requirement.
+              </p>
+            </li>
+          </ul>
+          <div className="mt-5">
+            <p className="text-md text-start font-bold ">Reference:</p>
+            <p className="text-md text-start ">Kamrul Hasan Ananda</p>
+            <p className="text-md text-start ">Frontend team lead (Shadhin) </p>
+            <p className="text-md text-start ">
+              Mail:{' '}
+              <span>
+                <a href="mailto:anandasadhinmusic@gmail.com">
+                  anandasadhinmusic@gmail.com
+                </a>
+              </span>
+            </p>
+          </div>
+        </div>
+        <div className="duration-div">
+          <p className="text-base font-bold text-center">Duration:</p>
+          <p className="text-base text-center">January 2022 - September 2022</p>
         </div>
       </div>
 
       <div className="work-experience-section container mx-auto about-me-section shadow-xl">
         <div className="insitution-image-div">
-          <Image height={150} width={150} src={'/assets/asthait.jpg'} alt='img' />
+          <Image
+            height={150}
+            width={150}
+            src={'/assets/asthait.jpg'}
+            alt="img"
+          />
         </div>
         <div className="details-div ">
-          <p className="text-3xl text-start ">Software Engineer (Intern)</p>
-          <p className="text-xl text-start ">Astha.IT</p>
+          <p className="text-xl text-start  ">Software Engineer (Intern)</p>
+          <p className="text-base text-start  ">Astha.IT</p>
 
           <ul className="work-experience-section-ul">
             <li>
@@ -102,59 +167,8 @@ const WorkExperienceSection = () => {
           </ul>
         </div>
         <div className="duration-div">
-          <p className="text-xl font-bold text-center">Duration:</p>
-          <p className="text-xl text-center">July 2022 - September 2022</p>
-        </div>
-      </div>
-
-      <div className="work-experience-section container mx-auto about-me-section shadow-xl">
-        <div className="insitution-image-div">
-          <Image height={150} width={150} src={'/assets/ionnolytic.jpg'} alt='img' />
-        </div>
-        <div className="details-div ">
-          <p className="text-3xl text-start ">Software Engineer (Intern)</p>
-          <p className="text-xl text-start ">Innolytic.IT</p>
-
-          <ul className="work-experience-section-ul">
-            <li>
-              <p className="text-md text-start ">
-                It was my academic intership during undergrade.
-              </p>
-            </li>
-            <li>
-              <p className="text-md text-start ">
-                Worked here as a flutter developer and worked in there client
-                project Qurom.
-              </p>
-            </li>
-            <li>
-              <p className="text-md text-start ">
-                Build the whole project from scratch as per desgin.
-              </p>
-            </li>
-            <li>
-              <p className="text-md text-start ">
-                Refactored and fixed bug of the project.
-              </p>
-            </li>
-            <li>
-              <p className="text-md text-start ">
-                Got training on Flutter, Dart, Version Control.
-              </p>
-            </li>
-          </ul>
-          <div className="mt-5">
-            <p className="text-md text-start font-bold ">Reference:</p>
-            <p className="text-md text-start ">S M Mahmudul Hasan</p>
-            <p className="text-md text-start ">Chairman</p>
-            <p className="text-md text-start ">
-              Mail: <span><a href='mailto:shohan.cse.sust@gmail.com'>shohan.cse.sust@gmail.com</a></span>
-            </p>
-          </div>
-        </div>
-        <div className="duration-div ">
-          <p className="text-xl font-bold text-center">Duration:</p>
-          <p className="text-xl text-center">February 2021 - June 2022</p>
+          <p className="text-base font-bold text-center">Duration:</p>
+          <p className="text-base text-center">July 2021 - October 2021</p>
         </div>
       </div>
     </div>

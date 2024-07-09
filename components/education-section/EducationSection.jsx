@@ -4,19 +4,19 @@ import React from 'react';
 const EducationSection = () => {
   return (
     <>
-      <div id='education' className='flex justify-center text-3xl font-bold text-color-black'>Academic Background</div>
+      <div id='education' className='flex justify-center text-xl font-bold text-color-black'>Academic Background</div>
       <div className="education-section container mx-auto about-me-section shadow-xl">
         <div className="session-dev">
-          <p className="text-2xl text-center">2018-2022</p>
-          <p className="text-3xl font-semibold text-center mt-2">
+          <p className="text-xl text-center">2018-2022</p>
+          <p className="text-xl font-semibold text-center mt-2">
             Bachelor&apos;s Degree
           </p>
         </div>
         <div className="details-dev">
-          <p className="text-3xl text-start ">
+          <p className="text-xl text-start ">
             Bachelor of Science in Software Engineering
           </p>
-          <p className="text-xl text-start ">
+          <p className="text-base text-start ">
             Department of Computer Scienece & Engineering , Islamic University
             Of Technology (IUT)
           </p>
@@ -39,16 +39,16 @@ const EducationSection = () => {
 
       <div className="education-section container mx-auto about-me-section shadow-xl ">
         <div className="session-dev">
-          <p className="text-2xl text-center">2014-2016</p>
-          <p className="text-3xl font-semibold text-center mt-2">
+          <p className="text-xl text-center">2014-2016</p>
+          <p className="text-xl font-semibold text-center mt-2">
             Higher Secondary
           </p>
         </div>
         <div className="details-dev">
-          <p className="text-3xl text-start ">
+          <p className="text-xl text-start ">
             Higher-Secondary School Certificate (HSC)
           </p>
-          <p className="text-xl text-start ">
+          <p className="text-base text-start ">
             Government Azizul Haque College , Bogura
           </p>
 
@@ -68,14 +68,14 @@ const EducationSection = () => {
 
       <div className="education-section container mx-auto about-me-section shadow-xl">
         <div className="session-dev">
-          <p className="text-2xl text-center">2012-2014</p>
-          <p className="text-3xl font-semibold text-center mt-2">Secondary</p>
+          <p className="text-xl text-center">2012-2014</p>
+          <p className="text-xl font-semibold text-center mt-2">Secondary</p>
         </div>
         <div className="details-dev">
-          <p className="text-3xl text-start ">
+          <p className="text-xl text-start ">
             Secondary School Certificate (SSC)
           </p>
-          <p className="text-xl text-start ">
+          <p className="text-base text-start ">
             Bogura Cantonment Public School & College , Bogura
           </p>
 

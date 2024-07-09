@@ -3,7 +3,7 @@ import React from 'react';
 const ExtraCurricularSection = () => {
   return (
     <>
-      <div id='extra-curricular' className="flex justify-center text-3xl font-bold mt-28 text-color-black">
+      <div id='extra-curricular' className="flex justify-center text-xl font-bold mt-28 text-color-black">
         Extra Curricular Activities
       </div>
       <div className="work-experience-section container mx-auto about-me-section shadow-xl p-20 skill-section">

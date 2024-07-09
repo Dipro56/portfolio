@@ -4,8 +4,8 @@ const AboutMeSection = () => {
   return (
     <div id='about' className="container mx-auto about-me-section shadow-xl  text-color-black">
       <div className="about-me-div">
-        <p className="text-3xl font-bold text-color-black">About me</p>
-        <p className="text-xl mt-8 font-normal">
+        <p className="text-xl font-bold text-color-black">About me</p>
+        <p className="text-base mt-8 font-normal">
           I am always enthusiastic about learning new things. I always try to
           follow the best programming practices and provide a stable solution
           for any problem that i solve. Currently working as a Software Engineer
@@ -19,30 +19,30 @@ const AboutMeSection = () => {
         </p>
       </div>
       <div className="basic-info-div">
-        <p className="text-3xl font-bold ">Basic Information</p>
+        <p className="text-xl font-bold ">Basic Information</p>
         <div className="work-experience-section container mx-auto about-me-section skill-section">
-          <p className="my-3 text-xl">
-            <span className="font-bold text-xl">Date of birth: </span> &nbsp;
+          <p className="my-3 text-base">
+            <span className="font-bold text-base">Date of birth: </span> &nbsp;
             August 21, 1996.
           </p>
           <hr />
-          <p className="my-3  text-xl">
-            <span className="font-bold text-xl">Phone: </span> &nbsp;
+          <p className="my-3  text-base">
+            <span className="font-bold text-base">Phone: </span> &nbsp;
             +8801717680510
           </p>
           <hr />
-          <p className="my-3 text-xl">
-            <span className="font-bold text-xl">Email: </span> &nbsp;
+          <p className="my-3 text-base">
+            <span className="font-bold text-base">Email: </span> &nbsp;
             <a href='mailto:sadatshahriarbari@gmail.com'>sadatshahriarbari@gmail.com</a>
           </p>
           <hr />
-          <p className="my-3 text-xl">
-            <span className="font-bold text-xl">Address: </span> &nbsp; Dhaka
+          <p className="my-3 text-base">
+            <span className="font-bold text-base">Address: </span> &nbsp; Dhaka
             Bashundhara Block C Road 4 House 127 6-A.
           </p>
           <hr />
-          <p className="my-3 text-xl">
-            <span className="font-bold text-xl">Blood group: </span> &nbsp; B+
+          <p className="my-3 text-base">
+            <span className="font-bold text-base">Blood group: </span> &nbsp; B+
           </p>
           <hr />
         </div>

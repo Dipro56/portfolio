@@ -9,7 +9,7 @@ const Footer = () => {
   useEffect(() => {});
   return (
     <div className="footer mt-28 py-10">
-      <p className='text-2xl'>&copy;Sadat Shahriar Bari {currentYear}</p>
+      <p className='text-base'>&copy;Sadat Shahriar Bari {currentYear}</p>
     </div>
   );
 };
